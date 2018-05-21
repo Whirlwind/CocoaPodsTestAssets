@@ -1,0 +1,27 @@
+{
+  "name": "MySDK",
+  "version": "0.0.1",
+  "summary": "MySDK.",
+  "description": "CocoaPods Test",
+  "homepage": "http://github.com/MySDK",
+  "license": "MIT",
+  "authors": {
+    "whirlwindjames": "whirlwindjames@hotmail.com"
+  },
+  "source": {
+    "git": "http://github/MySDK.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "MySDK",
+    "MySDK/*.{h,m}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "resources": "MySDK/*.xcassets",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}
